@@ -1,0 +1,112 @@
+@media screen and (max-width:600px) {
+    .tour-details,form,.nav-header-bar,.grid-1,.grid-2,.grid-3,.place-container,.simple-section,.form-section{
+        flex-direction: column;
+    }
+    .banner-section{
+        height: 100%;
+        width: 100%;
+       background-size: cover;
+       padding-bottom: 20px;
+       /* background-size: 100% 0%; */
+     }
+     .nav-header-bar i{
+        display: block;
+     }
+     .nav-header-bar a{
+        display: none;
+     }
+
+    .banner .banner-title {
+        font-size: 2rem;
+    }
+    .tour-details-text{
+        width: 100%;
+    }
+    .tour-description{
+        width: 100%;
+    }
+    .grid-2,.grid-1{
+        margin-bottom: 16px;
+    }
+    .tour-details-text .tour-title ,.tour-album .album-heading {
+        font-size: 1.5rem;
+    }
+    .background-mg img{
+        max-width: 1170px;
+        
+       
+    }
+    .background-mg{
+        position: relative;
+    
+    }
+   
+    .position{
+        position: absolute;
+    
+    /* top: 15%;
+    right: 5%; */
+    }
+    .form-content1{
+        width: 100%;
+    }
+    .form-content2{
+        width: 100%;
+    }
+    .form-section form ,input{
+        /* display: block; */
+        width: 50%;}
+        .form-content2 img{
+            width: 100%;
+        }
+        .footer-cotainar .footer-para{
+            margin-left: 120px;
+        }
+        .footer-description {
+            padding: 0 20px;
+        }
+ 
+}
+@media screen and (min-width:600px) and (max-width:992px){
+    nav,form,.tour-details , .grid-1,.grid-2,.grid-3,.place-container,
+    .place-content-3.place-content-3,.simple-section,.form-section{
+        flex-direction: column;
+    }
+    .tour-details-text{
+        width: 100%;
+    }
+    .place-content-3{
+        max-width: 800px;
+    }
+    .form-content1{
+        width: 100%;
+    }
+    .form-content2 img{
+        width: 100%;
+    }
+    .footer-cotainar .footer-para{
+        margin-left: 40%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1100px){
+    nav,form,.tour-details , .grid-1,.grid-2,.grid-3,.place-container,
+    .place-content-3.place-content-3,.simple-section,.form-section{
+        flex-direction: column;
+    }
+    .tour-details-text{
+        width: 100%;
+    }
+    .place-content-3{
+        max-width: 800px;
+    }
+    .form-content1{
+        width: 100%;
+    }
+    .form-content2 img{
+        width: 100%;
+    }
+    .footer-cotainar .footer-para{
+        margin-left: 40%;
+    }
+}
+
